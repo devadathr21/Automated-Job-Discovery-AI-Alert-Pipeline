@@ -1,0 +1,76 @@
+{
+  "name": "Daily_Job_Alert-Test_Workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 8
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        0,
+        0
+      ],
+      "id": "da6c21b8-5b89-4a8e-b9da-06452e57f53d",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "4e3d629a-1020-4ac8-8bac-e40b688f9dd4",
+              "name": "message",
+              "value": "Job alert pipeline is running successfully!",
+              "type": "string"
+            },
+            {
+              "id": "e3dde352-0eb8-43ae-bf42-ba85155e404e",
+              "name": "project",
+              "value": "Automated Job Discovery Pipeline",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        224,
+        0
+      ],
+      "id": "2bd76fe3-f64a-4f23-ae82-36983741af33",
+      "name": "Edit Fields"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "882269d8-1516-46ed-9b2b-1c0aff4798d5",
+  "nodeGroups": [],
+  "id": "33WpKC0z8mYXGjBQ",
+  "tags": []
+}
