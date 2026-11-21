@@ -31,4 +31,9 @@ Coming soon.
 
 ## Project Status
 
-Day 1: Local n8n environment setup completed.
+### Day 1 – Completed
+- Set up n8n Community Edition using Docker.
+- Created a scheduled workflow using Schedule Trigger.
+- Tested REST API integration using HTTP Request.
+- Retrieved and processed multiple JSON records.
+- Implemented filtering and field extraction.
