@@ -1,0 +1,28 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Credentials and private configuration
+credentials.json
+secrets/
+*.pem
+*.key
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+
+# Logs
+*.log
+
+# Python cache (if Python scripts are added later)
+__pycache__/
+*.py[cod]
+venv/
+.venv/
