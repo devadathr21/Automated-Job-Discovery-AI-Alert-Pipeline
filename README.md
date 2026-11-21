@@ -29,6 +29,14 @@ This project aims to automate the process of discovering relevant job opportunit
 
 Coming soon.
 
+## Screenshots
+
+ - **daily_job_alert_workflow.png**: Shows the Daily Job Alert - Test Workflow with Schedule Trigger connected to Edit Fields.
+ - **HTTP_request-API_test.png**: Shows the HTTP Request-API Test Workflow with Manual trigger, HTTP request node, Filter Node and Edit Fields.
+ - **http_request_output.png**: Show the HTTP Request node and the JSONPlaceholder API response.
+ - **filter_output.png**: Show the Filter node output with 10 items.
+ - **data_transformation.png**: Show the Edit Fields node output containing only post_id, post_title, and user_id.
+
 ## Project Status
 
 ### Day 1 – Completed
